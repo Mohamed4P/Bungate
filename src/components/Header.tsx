@@ -60,7 +60,7 @@ const Header = () => {
     src={logoImage}
     alt="Buneste Logo"
     className={`transition-all duration-500 ${
-      isScrolled ? "w-20 h-20" : "w-24 h-24"
+      isScrolled ? "w-48 h-20" : "w-58 h-24"
     } object-contain transition-transform duration-300 group-hover:scale-110`}
   />
 </Link>
@@ -104,13 +104,13 @@ const Header = () => {
 
             {/* CTA Button - Right Side */}
             <div className="hidden lg:flex items-center space-x-4">
-              <button className={`px-6 py-2 rounded-full font-semibold text-sm uppercase tracking-wider transition-all duration-300 transform hover:scale-105 shadow-lg ${
+              {/* <button className={`px-6 py-2 rounded-full font-semibold text-sm uppercase tracking-wider transition-all duration-300 transform hover:scale-105 shadow-lg ${
                 isScrolled 
                   ? "bg-amber-600 text-white hover:bg-amber-700" 
                   : "bg-amber-300 text-amber-900 hover:bg-amber-400"
               }`}>
                 Reserve Table
-              </button>
+              </button> */}
               
               {/* Phone Number */}
               <div className={`text-sm font-medium transition-colors duration-300 ${
@@ -192,13 +192,13 @@ const Header = () => {
             ))}
             
             {/* Mobile CTA Button */}
-            <button className={`px-8 py-3 rounded-full font-semibold text-sm uppercase tracking-wider transition-all duration-300 mt-4 ${
+            {/* <button className={`px-8 py-3 rounded-full font-semibold text-sm uppercase tracking-wider transition-all duration-300 mt-4 ${
               isScrolled 
                 ? "bg-amber-600 text-white hover:bg-amber-700" 
                 : "bg-amber-300 text-amber-900 hover:bg-amber-400"
             }`}>
               Reserve Table
-            </button>
+            </button> */}
           </nav>
         </div>
       </header>
