@@ -23,17 +23,17 @@ const Contact = () => {
               <div className="space-y-4 text-muted-foreground">
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Address</h4>
-                  <p>123 Coffee Lane, Bungate City</p>
+                  <p>Mogadishu,Somalia</p>
                 </div>
                 
-                <div>
+                {/* <div>
                   <h4 className="font-semibold text-foreground mb-1">Phone</h4>
                   <p>(555) 123-4567</p>
-                </div>
+                </div> */}
                 
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Email</h4>
-                  <p>hello@bungatecafe.com</p>
+                  <p>info@bungate.com</p>
                 </div>
                 
                 <div>
